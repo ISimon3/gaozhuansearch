@@ -120,7 +120,7 @@
 
         // 加载和解析 CSV 文件
         function loadAndParseCSV() {
-            fetch("./list.csv")
+            fetch("./data.csv")
                 .then(response => {
                     if (!response.ok) throw new Error("数据库错误");
                     return response.text();
